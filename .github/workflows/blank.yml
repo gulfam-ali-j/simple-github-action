@@ -1,0 +1,11 @@
+
+name: Runs shell command 
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps: 
+     - name: Echo a string 
+       run: echo "hello security ali !! this is our first gitub actions workflow file"
+       
